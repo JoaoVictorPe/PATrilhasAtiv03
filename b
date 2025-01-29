@@ -4,9 +4,9 @@
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Informe o número: ");
-			float num = float.Parse(Console.ReadLine());
+			int num = Convert.ToInt32(Console.ReadLine());
 			Console.WriteLine("Informe o segundo número: ");
-			float num2 = float.Parse(Console.ReadLine());
+			int num2 = Convert.ToInt32(Console.ReadLine());
 			if (num < num2) {
 				Console.WriteLine("O primeiro número é menor");
 			} 
